@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "845841842131",
+    "firebase_url": "https://konutakipgiriskismi.firebaseio.com",
+    "project_id": "konutakipgiriskismi",
+    "storage_bucket": "konutakipgiriskismi.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845841842131:android:6a87321e47a99d22deb926",
+        "android_client_info": {
+          "package_name": "com.example.konutakip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845841842131-qgemdfjhpbkfbhciv1g4tkhis1qt9beb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB38LyhqKYOvXerPAfeT9w_4ucTGUhrUs4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845841842131-qgemdfjhpbkfbhciv1g4tkhis1qt9beb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

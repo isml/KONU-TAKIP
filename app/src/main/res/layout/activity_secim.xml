@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4"
+    tools:context=".secim">
+
+
+    <Spinner
+        android:id="@+id/spinnerders"
+        android:layout_width="180dp"
+        android:layout_height="46dp"
+        android:background="@drawable/button2png"
+        android:popupBackground="@drawable/orange"
+        android:popupElevation="16dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/textsinif3"
+        app:layout_constraintStart_toStartOf="@+id/textsinif3"
+        app:layout_constraintTop_toBottomOf="@+id/textsinif3" />
+
+    <TextView
+        android:id="@+id/textsinif3"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="72dp"
+        android:text="DERS SEÇİMİ"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerkod"
+        app:layout_constraintStart_toStartOf="@+id/spinnerkod"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerkod" />
+
+    <Spinner
+        android:id="@+id/sinifsecimi"
+        android:layout_width="180dp"
+        android:layout_height="46dp"
+        android:background="@drawable/button2png"
+        android:popupBackground="@drawable/orange"
+        android:popupElevation="16dp"
+        android:splitMotionEvents="false"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/textsinif"
+        app:layout_constraintStart_toStartOf="@+id/textsinif"
+        app:layout_constraintTop_toBottomOf="@+id/textsinif" />
+
+    <TextView
+        android:id="@+id/textsinif"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:text="SINIF SEÇİMİ"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinnerkod"
+        android:layout_width="180dp"
+        android:layout_height="46dp"
+        android:background="@drawable/button2png"
+        android:popupBackground="@drawable/orange"
+        android:popupElevation="16dp"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/textsinif2"
+        app:layout_constraintStart_toStartOf="@+id/textsinif2"
+        app:layout_constraintTop_toBottomOf="@+id/textsinif2" />
+
+    <TextView
+        android:id="@+id/textsinif2"
+        android:layout_width="180dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="72dp"
+        android:text="ŞUBE SEÇİMİ"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="@+id/sinifsecimi"
+        app:layout_constraintStart_toStartOf="@+id/sinifsecimi"
+        app:layout_constraintTop_toBottomOf="@+id/sinifsecimi" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/button2"
+        android:backgroundTintMode="multiply"
+        android:onClick="islenenkonularclick"
+        android:text="İSLENEN KONULAR"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/okbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/okbutton"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/okbutton"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/button2"
+        android:backgroundTintMode="multiply"
+        android:onClick="okbutton"
+        android:text="TÜM KONULAR"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinnerders" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
